@@ -18,7 +18,7 @@ const AddUser = () => {
             alert("Please Check Age, only 18 to 65 yrs old people are allowed.");
         }
         else{
-        await axios.post('http://localhost:5000/users',{
+        await axios.post('https://yoga-backend-qovm.onrender.com/users',{
             name: name,
             mobile: mobile,
             email: email,

@@ -12,7 +12,7 @@ const EditUser = () => {
  
     const updateUser = async (e) => {
         e.preventDefault();
-        await axios.patch(`http://localhost:5000/users/${id}`,{
+        await axios.patch(`https://yoga-backend-qovm.onrender.com/users/${id}`,{
             name: name,
             time: time
         });
@@ -26,7 +26,7 @@ const EditUser = () => {
     }, []);
  
     const getUserById = async () => {
-        const response = await axios.get(`http://localhost:5000/users/${id}`);
+        const response = await axios.get(`https://yoga-backend-qovm.onrender.com/users/${id}`);
         setName(response.data.name);
         setTime(response.data.time);
     }

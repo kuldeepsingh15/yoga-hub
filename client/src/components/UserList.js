@@ -13,12 +13,12 @@ const UserList = () => {
     }, []);
  
     const getUsers = async () => {
-        const response = await axios.get('http://localhost:5000/users');
+        const response = await axios.get('https://yoga-backend-qovm.onrender.com/users');
         setUser(response.data);
     }
     
     const deleteUser = async (id) => {
-        await axios.delete(`http://localhost:5000/users/${id}`);
+        await axios.delete(`https://yoga-backend-qovm.onrender.com/users/${id}`);
         getUsers();
     }
  
