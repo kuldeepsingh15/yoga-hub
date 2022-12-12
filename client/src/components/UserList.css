@@ -1,0 +1,66 @@
+body {
+    background-color: #d9dbdc;
+   }
+input {
+    display: block;
+    min-width: 90%;
+    margin: 1em;
+    padding: 1em;
+    width: 35em;
+    border-radius: 8px;
+    border-style: none;
+    border: 1px solid #e4e6e8;
+    transition: 0.1s ease;
+  }
+  
+  input:hover {
+    border-color: palevioletred;
+  }
+  .selectWrapper{
+    border-radius:36px;
+    display:inline-block;
+    overflow:hidden;
+    background:#cccccc;
+    border:1px solid #cccccc;
+  }
+  .selectBox{
+    width:160px;
+    height:40px;
+    border:0px;
+    outline:none;
+  }
+  button {
+    margin: 0.8em;
+    padding: 1em;
+    border: 1px solid #e4e6e8;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.1s ease-in;
+  }
+  
+  button:hover {
+    background-color: palevioletred;
+    color: white;
+  }
+  h1 {
+    display: block;
+    font-size: 2em;
+    font-family: Lucida Handwriting;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+  }
+  label{
+    display: block;
+    font-size: 1.8em;
+    font-family: Lucida Handwriting;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .kul{
+    color: black;
+  }
