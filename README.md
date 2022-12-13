@@ -1,5 +1,5 @@
 # Yoga Hub 
-This project is a part of an assignement given by FlexMoney. This is a full stack app using MySQL, React.js, Node.js and Express.js
+This project is a part of an assignment given by FlexMoney. This is a full stack app using MySQL, React.js, Node.js and Express.js
 
 <!-- Deployed Links -->
 (Netlify) Frontend Link:
